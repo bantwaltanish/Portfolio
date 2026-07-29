@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanish Bantwal | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">TB<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-content">
+      <span class="badge">AWS Cloud Practitioner Certified</span>
+      <h1>Hi, I'm <span class="highlight">Tanish Bantwal</span></h1>
+      <h2>AI & Data Science Student | Full-Stack & AI Engineer</h2>
+      <p>Building production-ready MERN & Generative AI applications to solve real-world problems.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/tanishbantwal" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/tanishbantwal" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://leetcode.com" target="_blank"><i class="fas fa-code"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          I am a third-year B.Tech student in Artificial Intelligence & Data Science at K K Wagh Institute of Engineering Education & Research, Nashik.
+        </p>
+        <p>
+          With a strong foundation in Data Structures & Algorithms (150+ LeetCode problems solved) and hands-on experience across the MERN stack, Python, and Generative AI, I design and ship scalable applications—including a live production system used by a real local business.
+        </p>
+        <div class="stats">
+          <div class="stat-card">
+            <h3>150+</h3>
+            <p>LeetCode Solved</p>
+          </div>
+          <div class="stat-card">
+            <h3>3+</h3>
+            <p>Featured Projects</p>
+          </div>
+          <div class="stat-card">
+            <h3>2027</h3>
+            <p>Graduation Year</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3><i class="fas fa-laptop-code"></i> Full Stack Development</h3>
+        <ul>
+          <li>React.js & Node.js</li>
+          <li>Express.js & FastAPI</li>
+          <li>MongoDB & MySQL</li>
+          <li>HTML5, CSS3, REST APIs</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fas fa-robot"></i> Artificial Intelligence</h3>
+        <ul>
+          <li>Generative AI & LLMs</li>
+          <li>LangChain & RAG</li>
+          <li>ChromaDB & FAISS</li>
+          <li>Prompt Engineering & NLP</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fas fa-cloud"></i> Cloud & Core CS</h3>
+        <ul>
+          <li>AWS (Cloud Practitioner)</li>
+          <li>Data Structures & Algorithms</li>
+          <li>OOPs & DBMS</li>
+          <li>Operating Systems & Networks</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fas fa-tools"></i> Languages & Tools</h3>
+        <ul>
+          <li>Python & C++</li>
+          <li>JavaScript & SQL</li>
+          <li>Git, GitHub & Postman</li>
+          <li>VS Code, Figma & Canva</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="live-tag">Live System</span>
+          <h3>Turf Booking Management System</h3>
+        </div>
+        <p>A full-stack real-time booking app in live use by a local turf business in Nashik. Automates slot updating, authentication, and admin workflows to eliminate double bookings.</p>
+        <div class="tech-stack">
+          <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="genai-tag">GenAI</span>
+          <h3>AI Resume Analyzer & Interview Prep Assistant</h3>
+        </div>
+        <p>Platform analyzing resumes for ATS scores, generating targeted feedback, and hosting a 'Chat with your Resume' feature using RAG architecture.</p>
+        <div class="tech-stack">
+          <span>FastAPI</span><span>React</span><span>Gemini API</span><span>LangChain</span><span>ChromaDB</span><span>AWS</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="db-tag">Full-Stack</span>
+          <h3>Employee Payroll Management System</h3>
+        </div>
+        <p>Automated payroll platform managing records, attendance, and role-based access control with custom report generation reducing manual HR overhead.</p>
+        <div class="tech-stack">
+          <span>Python</span><span>Django</span><span>MySQL</span><span>HTML/CSS</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience & Leadership Section -->
+  <section id="experience" class="section bg-alt">
+    <h2 class="section-title">Experience & Leadership</h2>
+    <div class="timeline">
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Audit Team Member</h3>
+          <h4>Chandak Rahane & Co. | Jan 2025</h4>
+          <p>Conducted physical stock verification and collaborated with audit teams to ensure high data precision and spot reporting discrepancies.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Member</h3>
+          <h4>Unstop Igniters Club</h4>
+          <p>Coordinated technical events, promoted campus engagement, and collaborated on student development programs.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>College Football Team Player</h3>
+          <h4>K K Wagh Institute (2024 - Present)</h4>
+          <p>Represented the college in inter-collegiate tournaments, cultivating decision-making, discipline, and quick thinking under pressure.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i>bantwaltanish@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Nashik, Maharashtra, India</p>
+        <p><i class="fas fa-globe"></i> https://www.linkedin.com/in/tanish-bantwal-a71380289/</p>
+      </div>
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/bantwaltanish@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New portfolio contact message">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Your Email" required/>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Tanish Bantwal. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
